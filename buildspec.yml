@@ -1,13 +1,8 @@
 version: 0.2
 phases:
-  install:
-    commands:
-      - echo "Installing dependencies (if any)"
   build:
     commands:
-      - echo "Build stage - nothing to compile, just packaging"
+      - echo "Building website..."
 artifacts:
   files:
     - index.html
-    - appspec.yml
-    - scripts/*
